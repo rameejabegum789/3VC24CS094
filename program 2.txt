@@ -1,0 +1,290 @@
+
+Admin@DESKTOP-HGNLPEA MINGW64 ~ (master)
+$ cd D:
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d
+$ mkdir Rameeja
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d
+$ ls
+'$RECYCLE.BIN'/                           'Power BI'/                    gradient-cat-logo-template_52683-115845.jpg   projectA/
+ 2.docx                                    Rameeja/                      hello/                                        shanthi/
+ 3VC24CS096/                              'System Volume Information'/   mongodb-windows-x86_64-8.0.5-signed.msi       xampp-windows-x64-8.0.30-0-VS16-installer.exe*
+ Anaconda3-2024.10-1-Windows-x86_64.exe*   Thirdsem/                     mongosh-2.4.0-win32-x64.zip
+'DevOps softwares'/                        cat.jpg                      'new system software'/
+'MS Office 2007'/                          example/                      oldproj/
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d
+$ cd Rameeja
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja
+$ git clone https://github.com/rameejabegum789/3VC24CS094.git
+Cloning into '3VC24CS094'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja
+$ ls
+3VC24CS094/
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja
+$ cd 3VC24CS094
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ Git init
+Reinitialized existing Git repository in D:/Rameeja/3VC24CS094/.git/
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git config --global user.name "rameejabegum789"
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git config --global user.name
+rameejabegum789
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git config --global user.email "rameejabegum789@gmail.com"
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.email=rameejabegum789@gmail.com
+user.name=rameejabegum789
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/rameejabegum789/3VC24CS094.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ ls
+README.md
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ touch hi.txt
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ ls
+README.md  hi.txt
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hi.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git add .
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git commit -m "hi"
+[main 861f021] hi
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hi.txt
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 264 bytes | 264.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/rameejabegum789/3VC24CS094.git
+   504735c..861f021  main -> main
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git branch
+* main
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git branch b1
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git branch b2
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git branch
+  b1
+  b2
+* main
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git checkout b1
+Switched to branch 'b1'
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (b1)
+$ vi hello.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aborting commit due to empty commit message.
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (b2)
+$ git commit -m " 2 files b1 b2"
+[b2 1fecd1c]  2 files b1 b2
+ 2 files changed, 2 insertions(+)
+ create mode 100644 hello.txt
+ create mode 100644 welcome.txt
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (b2)
+$ git log
+commit 1fecd1c5a02c4fafc8fd407ffaa97ce48f43c292 (HEAD -> b2)
+Author: rameejabegum789 <rameejabegum789@gmail.com>
+Date:   Fri Oct 17 18:21:25 2025 +0530
+
+     2 files b1 b2
+
+commit 861f021e9a0ee0e9f9a93b25ce81e3a13501446b (origin/main, origin/HEAD, main, b1)
+Author: rameejabegum789 <rameejabegum789@gmail.com>
+Date:   Fri Oct 17 18:15:42 2025 +0530
+
+    hi
+
+commit 504735c921181569cba754c891ba78a4a4504040
+Author: rameejabegum789 <rameejabegum789@gmail.com>
+Date:   Thu Sep 25 16:10:40 2025 +0530
+
+    Initial commit
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (b2)
+$ git push origin main
+Everything up-to-date
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (b2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git push origin main
+Everything up-to-date
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ ls
+README.md  hi.txt
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git merge b1
+Already up to date.
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git push origin main
+Everything up-to-date
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git checkout b1
+Switched to branch 'b1'
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (b1)
+$ ls
+README.md  hi.txt
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (b1)
+$ git checkout b2
+Switched to branch 'b2'
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (b2)
+$ ls
+README.md  hello.txt  hi.txt  welcome.txt
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (b2)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git merge b2
+Updating 861f021..1fecd1c
+Fast-forward
+ hello.txt   | 1 +
+ welcome.txt | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 hello.txt
+ create mode 100644 welcome.txt
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 371 bytes | 371.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/rameejabegum789/3VC24CS094.git
+   861f021..1fecd1c  main -> main
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/Rameeja/3VC24CS094 (main)
+$
