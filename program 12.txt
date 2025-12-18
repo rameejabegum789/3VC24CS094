@@ -1,0 +1,229 @@
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094
+$ git clone https://github.com/rameejabegum789/3VC24CS094.git
+Cloning into '3VC24CS094'...
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 13 (delta 1), reused 10 (delta 1), pack-reused 0 (from 0)
+Receiving objects: 100% (13/13), done.
+Resolving deltas: 100% (1/1), done.
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094
+$ ls
+3VC24CS094/
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094
+$ cd
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 ~ (main)
+$ cd 3VC24CS094
+bash: cd: 3VC24CS094: No such file or directory
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 ~ (main)
+$ cd C:
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c
+$ mkdir Rameeja
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c
+$ git clone https://github.com/rameejabegum789/3VC24CS094.git
+fatal: destination path '3VC24CS094' already exists and is not an empty directory.
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c
+$ ls
+'$Recycle.Bin'/   3vc22cs048/                Intel/        'Program Files'/         Recovery/                     Windows/              hiberfil.sys   pagefile.sys   xampp/
+ 3VC22CD062/      Config.Msi/                MSOCache/     'Program Files (x86)'/  'System Volume Information'/   alfiza/               housing.csv    stage2.img
+ 3VC24CS/        'Documents and Settings'@  'New folder'/   ProgramData/            TurboC4/                      apache-maven-3.9.9/   inetpub/       swapfile.sys
+ 3VC24CS094/      DumpStack.log.tmp          PerfLogs/      Rameeja/                Users/                        gradle-8.13/          oraclexe/      tehseen/
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c
+$ cd 3VC24CS094
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094
+$ git init
+Initialized empty Git repository in C:/3VC24CS094/.git/
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ vi 12a.txt
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ git add .
+warning: in the working copy of '12a.txt', LF will be replaced by CRLF the next time Git touches it
+warning: adding embedded git repository: 3VC24CS094
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> 3VC24CS094
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached 3VC24CS094
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config set advice.addEmbeddedRepo false"
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ git commit -m "I am in 12a branch master"
+[master (root-commit) 7e6b96c] I am in 12a branch master
+ 2 files changed, 2 insertions(+)
+ create mode 100644 12a.txt
+ create mode 160000 3VC24CS094
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ vi 12b.txt
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ git add .
+warning: in the working copy of '12b.txt', LF will be replaced by CRLF the next time Git touches it
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ git commit -m " I am in 12b branch master"
+[master f4d0348]  I am in 12b branch master
+ 1 file changed, 1 insertion(+)
+ create mode 100644 12b.txt
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ vi 12b.txt
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ git add .
+warning: in the working copy of '12b.txt', LF will be replaced by CRLF the next time Git touches it
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ git commit -m " I am in 12b branch master"
+On branch master
+nothing to commit, working tree clean
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ vi 12a.txt
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ git add .
+warning: in the working copy of '12a.txt', LF will be replaced by CRLF the next time Git touches it
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ git commit -m " i am in 12a branch master changes 1"
+[master b900386]  i am in 12a branch master changes 1
+ 1 file changed, 2 insertions(+)
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ vi 12b.txt
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ git add .
+warning: in the working copy of '12b.txt', LF will be replaced by CRLF the next time Git touches it
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ git commit -m " I am in 12b branch master changes 1"
+[master 8121e99]  I am in 12b branch master changes 1
+ 1 file changed, 1 insertion(+)
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ git log --oneline
+8121e99 (HEAD -> master)  I am in 12b branch master changes 1
+b900386  i am in 12a branch master changes 1
+f4d0348  I am in 12b branch master
+7e6b96c I am in 12a branch master
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ git revert ec9d05e
+fatal: bad revision 'ec9d05e'
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ ls
+12a.txt  12b.txt  3VC24CS094/
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ cd 3VC24CS094/
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094/3VC24CS094 (main)
+$ ls
+ README.md   hello.txt   hi.txt  'program 2.txt'   welcome.txt
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094/3VC24CS094 (main)
+$ cd ..
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ ls
+12a.txt  12b.txt  3VC24CS094/
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094 (master)
+$ cd 3VC24CS094/
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094/3VC24CS094 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        12a.txt
+        12b.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094/3VC24CS094 (main)
+$ git add .
+warning: in the working copy of '12a.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '12b.txt', LF will be replaced by CRLF the next time Git touches it
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094/3VC24CS094 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   12a.txt
+        new file:   12b.txt
+
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094/3VC24CS094 (main)
+$ git commit -m " I am in 12a branch master"
+[main 306d8af]  I am in 12a branch master
+ 2 files changed, 5 insertions(+)
+ create mode 100644 12a.txt
+ create mode 100644 12b.txt
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094/3VC24CS094 (main)
+$ git commit -m "I am in 12b branch master"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094/3VC24CS094 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094/3VC24CS094 (main)
+$ git push origin main
+info: please complete authentication in your browser...
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 409 bytes | 409.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/rameejabegum789/3VC24CS094.git
+   b15cad6..306d8af  main -> main
+
+DELL 70@DESKTOP-9UUR0V1 MINGW64 /c/3VC24CS094/3VC24CS094 (main)
+$
